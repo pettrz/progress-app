@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  margin: 0 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+  display: flex;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 20px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --progress-color: #4cffaa;
+  --extra-red: #ff8878;
+  --btn-color: #7461e8;
+  --btn-color2: #403e3d;
+}

@@ -1,0 +1,19 @@
+.input-add {
+  padding: 0 0.5em;
+  height: 65px;
+  width: 160px;
+  font-size: 2em;
+  border: 3px solid var(--btn-color);
+  border-right: 0;
+  text-align: center;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+input[type="number"]:focus {
+  outline: none;
+}

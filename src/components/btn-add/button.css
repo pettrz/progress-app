@@ -1,0 +1,20 @@
+.btn {
+  color: white;
+  height: 65px;
+  width: 160px;
+  background-color: var(--btn-color);
+  padding: 0 0.5em;
+  border: 0;
+  border-top-right-radius: 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: color-mod(#937b19 contrast(25%));
+}
+
+.btn.btn--secondary {
+  height: 45px;
+  width: 100px;
+  background-color: var(--btn-color2);
+}

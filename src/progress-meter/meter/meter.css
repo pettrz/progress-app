@@ -1,0 +1,14 @@
+.progress {
+  width: 100%;
+}
+
+.progress__meter {
+  height: 60px;
+  border: 2px solid var(--extra-red);
+  border-radius: 3px;
+  display: flex;
+}
+
+.progress__meter-inner {
+  background-color: var(--progress-color);
+}
